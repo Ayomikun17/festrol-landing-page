@@ -1,0 +1,177 @@
+body {
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+
+/* Global*/
+
+.container {
+    width: 80%;
+    overflow: hidden;
+    margin: auto;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+.button-1 {
+    height: 38px;
+    background: orange;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #fff;
+}
+
+.dark {
+    padding: 15px;
+    background: brown;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.blue {
+    padding: 15px;
+    background: gold;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+
+.hop {
+    padding: 15px;
+    background: green;
+    color: #fff;
+}
+
+
+/*header*/
+
+header {
+    background-color: #35424a;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: coral 3px solid;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li {
+    list-style: none;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding h1 {
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    padding-top: 10px;
+}
+
+header .highlight,
+header .current a {
+    color: crimson;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: #ccc;
+    font-weight: bold;
+}
+
+#showcase {
+    min-height: 200px;
+    background: url(../img/eng.jpeg);
+    text-align: center;
+    color: black;
+}
+
+#showcase h3 {
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+#showcase p {
+    font-size: 25px;
+    z-index: 1;
+}
+
+
+/*newsletter*/
+
+#newsletter {
+    padding: 15px;
+    color: #fff;
+    background: #35424a;
+}
+
+#newsletter h1 {
+    float: left;
+}
+
+#newsletter form {
+    float: right;
+    margin-top: 10px;
+}
+
+#newsletter input[type="email"] {
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+
+
+/*boxes*/
+
+#boxes {
+    margin-top: 20px;
+}
+
+.container-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.box1,
+.box2,
+.box3 {
+    flex: 1;
+    padding-right: 100px;
+    margin-left: 100px;
+}
+
+#boxes img {
+    width: 200px;
+}
+
+footer {
+    padding: 20px;
+    margin-top: 20px;
+    color: #fff;
+    background: #333;
+    text-align: center;
+}
